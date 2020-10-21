@@ -47,9 +47,21 @@ disqusShortname = ""
       name = "Home"
       url = "#"
 
-    [[params.navigation.links]]
-      name = "Projects"
-      url = "blogs"
+       [[params.navigation.links]]
+      name = "COVID-19 Data Insights"
+      url = "blogs/blog1"
+      
+       [[params.navigation.links]]
+      name = "Trump’s Approval Margins"
+      url = "blogs/blog2"
+      
+       [[params.navigation.links]]
+      name = "Omega Group Pay Discrimination"
+      url = "blogs/blog3"
+      
+       [[params.navigation.links]]
+      name = "Yield Curve inversion"
+      url = "blogs/blog4"
 
 
     # Add custom links here by uncommenting code below. To remove links just delete
