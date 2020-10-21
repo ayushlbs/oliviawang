@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio website for Olivia Wang</title>
+    <link>https://oliviawang.netlify.app/</link>
+    <description>Recent content on Portfolio website for Olivia Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://oliviawang.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>COVID-19 Data Insights</title>
+      <link>https://oliviawang.netlify.app/blogs/blog1/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oliviawang.netlify.app/blogs/blog1/</guid>
+      <description>Let us look at CDC Covid-19 Case Surveillance Data. There are well over 3 million entries of individual, de-identified patient data.
+# URL link to CDC to download dataurl &amp;lt;- &amp;quot;https://data.cdc.gov/api/views/vbim-akqf/rows.csv?accessType=DOWNLOAD&amp;quot;covid_data &amp;lt;- vroom(url)%&amp;gt;%clean_names()# covid_data &amp;lt;- read_csv(here::here(&amp;#39;data&amp;#39;, &amp;#39;COVID-19_Case_Surveillance_Public_Use_Data.csv.zip&amp;#39;)) %&amp;gt;% # clean_names()Given the data we have, I would produce two graphs that show death % rate:
+1. by age group, sex, and whether the patient had co-morbidities or notcovid_chart_one &amp;lt;- covid_data %&amp;gt;% # Manually delete data with values that are &amp;quot;Missing&amp;quot;, &amp;quot;Unknown&amp;quot; as well as &amp;quot;Other&amp;quot; for genderfilter(sex !</description>
+    </item>
+    
+    <item>
+      <title>Omega Group plc- Pay Discrimination</title>
+      <link>https://oliviawang.netlify.app/blogs/blog3/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oliviawang.netlify.app/blogs/blog3/</guid>
+      <description>At the last board meeting of Omega Group Plc., the headquarters of a large multinational company, the issue was raised that women were being discriminated in the company, in the sense that the salaries were not the same for male and female executives. A quick analysis of a sample of 50 employees (of which 24 men and 26 women) revealed that the average salary for men was about 8,700 higher than for women.</description>
+    </item>
+    
+    <item>
+      <title>Trump’s Approval Margins</title>
+      <link>https://oliviawang.netlify.app/blogs/blog2/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oliviawang.netlify.app/blogs/blog2/</guid>
+      <description>As we saw in class, fivethirtyeight.com has detailed data on all polls that track the president’s approval.
+# Import approval polls dataapproval_polllist &amp;lt;- read_csv(here::here(&amp;#39;data&amp;#39;, &amp;#39;approval_polllist.csv&amp;#39;))# or directly off fivethirtyeight website# approval_polllist &amp;lt;- read_csv(&amp;#39;https://projects.fivethirtyeight.com/trump-approval-data/approval_polllist.csv&amp;#39;) glimpse(approval_polllist)## Rows: 15,619## Columns: 22## $ president &amp;lt;chr&amp;gt; &amp;quot;Donald Trump&amp;quot;, &amp;quot;Donald Trump&amp;quot;, &amp;quot;Donald Trump&amp;quot;,...## $ subgroup &amp;lt;chr&amp;gt; &amp;quot;All polls&amp;quot;, &amp;quot;All polls&amp;quot;, &amp;quot;All polls&amp;quot;, &amp;quot;All pol...## $ modeldate &amp;lt;chr&amp;gt; &amp;quot;9/27/2020&amp;quot;, &amp;quot;9/27/2020&amp;quot;, &amp;quot;9/27/2020&amp;quot;, &amp;quot;9/27/20.</description>
+    </item>
+    
+    <item>
+      <title>Yield Curve inversion</title>
+      <link>https://oliviawang.netlify.app/blogs/blog4/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oliviawang.netlify.app/blogs/blog4/</guid>
+      <description>Data preparationEvery so often, we hear warnings from commentators on the “inverted yield curve” and its predictive power with respect to recessions. An explainer what a inverted yield curve is can be found here. If you’d rather listen to something, here is a great podcast from NPR on yield curve indicators
+In addition, many articles and commentators think that, e.g., Yield curve inversion is viewed as a harbinger of recession.</description>
+    </item>
+    
+  </channel>
+</rss>
